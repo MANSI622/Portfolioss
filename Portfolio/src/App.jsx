@@ -2,8 +2,8 @@ import React, { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
 const Home = lazy(() => import('./Pages/Home'));
+
 const Skills = lazy(() => import('./Pages/Skills'));
 const Contact = lazy(() => import('./Pages/Contact'));
 const Education = lazy(() => import('./Pages/Education'));

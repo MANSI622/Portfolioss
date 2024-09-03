@@ -84,7 +84,7 @@ function Home() {
       <div className="flex justify-center items-center mb-8 lg:mb-0">
         <span className="font-roboto font-helvetica text-[1.5vh] text-[#1f1f1f] mx-10 box-border m-0 max-w-full
           shadow-[0_0.5rem_1rem_rgba(0,0,0,0.4)] rounded-full p-3 w-[25vh] h-[25vh] lg:w-[35vh] lg:h-[35vh] mb-4 lg:mr-0 flex items-center justify-center">
-          <img src={img} className="w-full h-full object-cover rounded-full" alt="Mansi Bansal" />
+          <img src={img} className="w-full h-full object-cover rounded-full" alt="Mansi Bansal"  loading='lazy'/>
         </span>
       </div>
 

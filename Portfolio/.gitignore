@@ -7,15 +7,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
-dist
-dist-ssr
-*.local
+
+# Vite build output
+dist/
+dist-ssr/
+.vite/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
 
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
@@ -23,4 +31,5 @@ dist-ssr
 *.sln
 *.sw?
 
-
+# Vercel Build Cache (Optional)
+.vercel/
